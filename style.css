@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    background: rgb(226, 226, 226);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.logo{
+    float: left;
+    padding-left: 15px;
+    padding-top: 10px ;
+}
+.header_section{
+    display: flex;
+    background-color: black;
+   
+}
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 65px;
+    padding-top: 45px;
+    font-weight: 700;
+}
+
+nav a {
+    color: #06799c;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+nav a:hover{
+    color: red;
+    padding-bottom: 20px;
+    border-bottom: 3px solid red;
+}
+
+.nav_item{
+    margin-left: 650px;
+
+}
+
+.home_info{
+    width: 20%;
+}
+
+.home_info, h3{
+    text-align: center;
+}
+
+.home_icon_section{
+    color: #06799c;
+    font-size: 70px;
+    margin-left: 5%;
+    
+    
+    
+}
+.home_service{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+
+/* about-section */
+.about_headline{
+    text-align: center;
+    color: #06799c;
+}
+
+.about_mainSection{
+    color: rgb(23, 26, 19);
+    line-height: 25px;
+    padding: 15px 20px;
+}
+
+/* blog-section */
+.blog_header{
+    color: #06799c;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.blog_one{
+    display: flex;
+}
+.blog_one img{
+    padding: 20px;
+    width: 500px;
+    height: 100%;
+}
+.blog_one_section{
+    padding-left: 25px;
+    width: 100%;
+    line-height: 30px;
+}
+.btn{
+    padding: 15px;
+    font-weight: bold;
+    font-size: large;
+    background-color: #06799c;
+    color: white;
+    border: 0;
+} 
+
+article h2{
+    text-align: center;
+    margin-top: 70px;
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-left: 25%;
+    margin-bottom: 40px;
+    
+}
+
+td, th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+/* services section */
+.services_header{
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+    color: #06799c;
+    font-size: larger;
+}
+.services_main{
+    padding: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.service_img{
+    margin-left: 20%;
+}
+.health_services{
+    padding-top: 40px;
+}
+
+/* contact section */
+.contact_header{
+    text-align: center;
+    color: #06799c;
+    margin-top: 20px;
+}
+.full-form{
+    margin: auto;
+    max-width: 500px;
+    margin-top: 40px;
+    
+}
+.full-form .input-field{
+    padding: 20px;
+    width: 100%;
+    font-size:15px;
+}
+
+
+/* footer section */
+Footer{
+    background-color: rgb(14, 13, 13);
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px;
+    color: #06799c;
+    font-size: large;
+    font-weight: bold;
+}
+
